@@ -1,12 +1,16 @@
-## Welcome to GitHub Pages
+## Overview
+This document provides a descrption of the work developed for [GNSS-SDR](https://gnss-sdr.org/) during the Google Summer of Code 2020 program. This project intended to extend the capabilities of the GNSS-SDR software by providing implementation of [robust anti-jamming processing](https://github.com/HaoqingLi/gnss-sdr).
 
-You can use the [editor on GitHub](https://github.com/HaoqingLi/GSOC_2020/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+# Team
+Mentor: Gerald Lamountain, Pau Closas 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Developer: Haoqing Li 
 
-### Markdown
+# Project
+This project aimed to degrade influence of jamming signals by introduing robust version of cross-ambiguity functions (CAFs) with Maximum Likelihood (ML) estimator under heavy tailed distribution and M-estimator to reveiver. This project’s objectives were:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+1. Implementation of robustion pre-correlation processing in time domain in both acquisisition and tracking blck.
+2. Implementation of robustion pre-correlation processing in frequency domain in both acquisisition and tracking blck.
 
 ```markdown
 Syntax highlighted code block
