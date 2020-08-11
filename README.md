@@ -7,7 +7,10 @@ Mentor: Gerald Lamountain, Pau Closas
 Developer: Haoqing Li 
 
 # Project
-With Global Navigation Satellite System (GNSS) being popular in position-based applications with high accuracy, our growing dependence on GNSS within critical infrastructures has posed some concerns about the potential threats to GNSS. While GNSS can provide us precise positions estimation, the GNSS signal can be easily affected by some error sources, for example, jamming signal in this project. In this project, our main hypothesis is that jamming signals can be considered as outliers (either in time of frequency domain) to the received GNSS signal. To mitigate those outliers, robust version of cross-ambiguity functions (CAFs) are introduced with Maximum Likelihood (ML) estimator under heavy tailed distribution and M-estimator. Thus we can reduce the affect of jamming signals in terms of outliers and make GNSS more robust.
+This project aimed to degrade influence of jamming signals by introduing robust version of cross-ambiguity functions (CAFs) with Maximum Likelihood (ML) estimator under heavy tailed distribution and M-estimator to reveiver. This project’s objectives were:
+
+1. Implementation of robustion pre-correlation processing in time domain in both acquisisition and tracking blck.
+2. Implementation of robustion pre-correlation processing in frequency domain in both acquisisition and tracking blck.
 
 ```markdown
 Syntax highlighted code block
