@@ -1,3 +1,5 @@
+![FRONTPAGE](https://github.com/HaoqingLi/GSOC_2020/blob/master/Frontpage.PNG)
+
 ## Overview
 This document provides a descrption of the work developed for [GNSS-SDR](https://gnss-sdr.org/) during the Google Summer of Code 2020 program. This project intended to extend the capabilities of the GNSS-SDR software by providing implementation of [robust anti-jamming processing](https://github.com/HaoqingLi/gnss-sdr).
 
